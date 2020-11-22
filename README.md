@@ -1,1 +1,5 @@
-# WirfNixWeg
+# WirfNixWeg "Tauschapp"
+
+# Java
+# Android
+# Inkscape
