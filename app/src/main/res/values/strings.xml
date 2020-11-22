@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Wirfnixweg</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTRIEREN</string>
+    <string name="email">email_field</string>
+    <string name="email_adresse">Email Adresse</string>
+    <string name="phone">Telefon</string>
+    <string name="address">Adresse</string>
+    <string name="postcode">Postleitzahl</string>
+    <string name="name_save">Name</string>
+    <string name="phone_save">Telefonnummer</string>
+    <string name="address_save">Adresse</string>
+    <string name="postcode_save">Postleitzahl</string>
+    <string name="id_logo_text">Logo</string>
+    <string name="id_gem_unten">Pic2</string>
+    <string name="name_et">Vollständiger Name</string>
+    <string name="address_et">Adresse</string>
+    <string name="postCode_et">Postleitzahl</string>
+    <string name="phone_et">Telefonnummer</string>
+    <string name="password_et">Passwort</string>
+    <string name="passwort_confirm_et">Passwort bestätigen</string>
+    <string name="sind_sie_schon_registriert_zur_ck_zum_login">Sind Sie schon registriert? Zurück zum LOGIN</string>
+    <string name="gem_unten">Pic2</string>
+    <string name="info_profile_tv">Ihre persönlichen Daten:</string>
+    <string name="full_name_et">Vollständiger Name</string>
+    <string name="not_post_tv">Doch nicht ... lieber später</string>
+    <string name="article_et">Artikel</string>
+    <string name="info_post_tv">Was möchten Sie anbieten?</string>
+    <string name="unit_et">Menge in Kg</string>
+    <string name="price_et">"Preis "</string>
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="48dp">
+            <TextView
+                android:id="@+id/article_name_prefixTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:hint="Artikel" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/unit_articleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="100dp"
+            android:hint="Menge" />
+        <TextView
+            android:id="@+id/unit_infoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="150dp"
+            android:text="Kg"/>
+        <TextView
+            android:id="@+id/price_articleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="200dp"
+            android:hint="Preis"/>
+        <TextView
+            android:id="@+id/price_infoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="250dp"
+            android:text="EUR"/>
+
+        <ImageView
+            android:id="@+id/nextIv"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="320dp"
+            android:src="@drawable/ic_navigate_next_green"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

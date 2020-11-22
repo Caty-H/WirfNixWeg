@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217376875492",
+    "firebase_url": "https://wirfnixweg-21861.firebaseio.com",
+    "project_id": "wirfnixweg-21861",
+    "storage_bucket": "wirfnixweg-21861.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217376875492:android:9fe88293eb7c32b7de1df1",
+        "android_client_info": {
+          "package_name": "at.cat.h.wirfnixweg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217376875492-3o4nsqkpkd6suursdk0olhg0d548b0bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "at.cat.h.wirfnixweg",
+            "certificate_hash": "01884505a648f69457cdbaae91ec06868c241914"
+          }
+        },
+        {
+          "client_id": "217376875492-e06v7ttojkjlmghk8egjlvf6v6u80ihj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf77sq4nofPebinICmfsQqIPMy-73i_Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217376875492-e06v7ttojkjlmghk8egjlvf6v6u80ihj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

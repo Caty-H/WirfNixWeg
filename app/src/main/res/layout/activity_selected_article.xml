@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedArticleActivity">
+
+    <TextView
+        android:id="@+id/details_info_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:id="@+id/article_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"
+            android:paddingStart="10dp"
+            android:text="@string/article_et" />
+
+        <TextView
+            android:id="@+id/article_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/details_underline"
+            android:ems="10"
+            android:hint="Artikel"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/unit_tv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/details_underline"
+                android:ems="10"
+                android:hint="Menge"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/unit_info_tv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="170dp"
+                android:ems="10"
+                android:hint="KG"
+                android:padding="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/price_tv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/details_underline"
+                android:ems="10"
+                android:hint="Preis"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/price_info_tv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="170dp"
+                android:ems="10"
+                android:hint="EUR"
+                android:padding="10dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/userName_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:text="Name des Verkäufers" />
+
+        <TextView
+            android:id="@+id/full_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/details_underline"
+            android:ems="10"
+            android:hint="Name des Verkäufers:"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/address_titel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:paddingStart="8dp"
+            android:text="Adresse:" />
+
+        <TextView
+            android:id="@+id/adress_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/details_underline"
+            android:ems="10"
+            android:hint="Adresse"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/phone_titel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:paddingStart="8dp"
+            android:text="Telefonnummer:" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/phone_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/details_underline"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:hint="Telefonnummer"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/call_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:onClick="triggerCall"
+                android:background="@drawable/ic_phone_green"
+                android:ems="10" />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/backIv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_navigate_before_green"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/gem_unten"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp"
+        android:contentDescription="@string/gem_unten"
+        android:src="@drawable/ic_gemuse_start_unten" />
+</RelativeLayout>

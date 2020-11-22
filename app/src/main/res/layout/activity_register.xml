@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/id_gem_oben"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="2dp"
+
+        android:src="@drawable/ic_gemusen_start_oben" />
+
+    <LinearLayout
+        android:id="@+id/register_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/name_et"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/email_adresse"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/address_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/address_et"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/postCode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/postCode_et"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/phone_et"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/password_et"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/password_confirm_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:hint="@string/passwort_confirm_et"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="15dp"
+            android:text="@string/register"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/sind_sie_schon_registriert_zur_ck_zum_login" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gem_unten"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-7dp"
+        android:contentDescription="@string/gem_unten"
+        android:src="@drawable/ic_gemuse_start_unten" />
+
+
+</RelativeLayout>
